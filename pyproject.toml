@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.11"
 tqdm = "^4.67.1"
 fiona = "^1.10.1"
+nbstripout = "^0.8.1"
 
 
 [build-system]
