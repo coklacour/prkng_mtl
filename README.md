@@ -31,6 +31,6 @@ To start this magnificent project, I propose the following structure (https://dr
     │
     ├── reports            <- Generated analysis reports in HTML, PDF, LaTeX, etc.
     │
-    ├── core               <- Private submodule used for managing key project data or logic.
-    │   └── __init__.py    <- Makes `core` a Python module.
+    ├── src               <- Source code for use in this project.
+    │   └── prkng/        <- Private submodule used for managing key project data or logic.
 

@@ -1,3 +1,3 @@
-[submodule "core"]
-	path = core
-	url = git@github.com:coklacour/prkng_mtl_core.git
+[submodule "src/prkng"]
+    path = src/prkng
+    url = git@github.com:coklacour/prkng_mtl_core.git

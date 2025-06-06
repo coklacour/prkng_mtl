@@ -5,7 +5,7 @@ description = ""
 authors = ["Coklacour <jeremie.alluard@gmail.com>"]
 readme = "README.md"
 packages = [
-    { include = "core" }
+    { include = "prkng", from = "src" }
 ]
 
 [tool.poetry.dependencies]
@@ -13,7 +13,6 @@ python = "^3.11"
 tqdm = "^4.67.1"
 fiona = "^1.10.1"
 nbstripout = "^0.8.1"
-parse_rpa = { path = "./core" }
 
 [build-system]
 requires = ["poetry-core"]
