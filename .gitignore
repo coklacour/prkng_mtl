@@ -1,7 +1,10 @@
+# fichiers a ne pas commiter
 *.csv
 *.html
 *.gpkg
 *.txt
+*.pdf
+*.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
