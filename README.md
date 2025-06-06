@@ -19,18 +19,18 @@ poetry install
 
 To start this magnificent project, I propose the following structure (https://drivendata.github.io/cookiecutter-data-science/):
 
-.
-├── README.md          <- The top-level README for developers working on this project.
-├── data
-│   ├── raw            <- Raw, unprocessed data.
-│   └── seeds          <- External or reference data used for seeding the project.
-│
-├── docs               <- Documentation for project setup, development, or usage.
-│
-├── notebooks          <- Jupyter notebooks. Naming convention uses a prefix number for ordering.
-│
-├── reports            <- Generated analysis reports in HTML, PDF, LaTeX, etc.
-│
-├── core               <- Private submodule used for managing key project data or logic.
-│   └── __init__.py    <- Makes `core` a Python module.
+    .
+    ├── README.md          <- The top-level README for developers working on this project.
+    ├── data
+    │   ├── raw            <- Raw, unprocessed data.
+    │   └── seeds          <- External or reference data used for seeding the project.
+    │
+    ├── docs               <- Documentation for project setup, development, or usage.
+    │
+    ├── notebooks          <- Jupyter notebooks. Naming convention uses a prefix number for ordering.
+    │
+    ├── reports            <- Generated analysis reports in HTML, PDF, LaTeX, etc.
+    │
+    ├── core               <- Private submodule used for managing key project data or logic.
+    │   └── __init__.py    <- Makes `core` a Python module.
 
